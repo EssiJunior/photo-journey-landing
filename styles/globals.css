@@ -1,26 +1,128 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* FONTS */
+  --font-libre: var(--font-libre-Bodoni);
+  --font-inter: var(--font-inter);
+
+  /* COLORS */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* COLORS */
+  --background: white;
+  --foreground: black;
+
+  --primary: #8F9CD3;
+  --secondary: #FFCAA4;
+  --accent: ##654672;
+}
+
+@layer base {
+
+  * {
+    @apply box-border m-0 p-0;
+  }
+
+  body {
+    @apply bg-background text-foreground mx-auto max-w-350;
+    overflow-x: hidden !important;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+
+  h1 {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: clamp(40px, 5vw, 70px);
+    line-height: 80px;
+    letter-spacing: 0%;
+  }
+
+  h2 {
+    font-family: var(--font-libre);
+    font-weight: 500;
+    font-size: clamp(30px, 4vw, 50px);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: clamp(30px, 3.5vw, 45px);
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: clamp(25px, 2.5vw, 30px);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  h5 {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: clamp(16px, 1.8vw, 22px);
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  p {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+
+  span {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 27px;
+    letter-spacing: 0%;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+
+  .flex-end {
+    @apply flex items-center justify-end;
+  }
+
+  .container {
+    @apply max-w-350 ! mx-auto !;
+  }
 }
