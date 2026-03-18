@@ -81,7 +81,6 @@ npm start
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Lucide Icons](https://lucide.dev/)
 
 ## 📂 Project Structure
 
