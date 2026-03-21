@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Libre_Bodoni, Inter } from "next/font/google";
 import "@/styles/globals.css";
+import Navbar from "@/layouts/Navbar";
+import Footer from "@/layouts/Footer";
 
 const libreBodoniSans = Libre_Bodoni({
   variable: "--font-libre-Bodoni",
@@ -27,7 +29,9 @@ export default function RootLayout({
       <body
         className={`${libreBodoniSans.variable} ${inter.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
