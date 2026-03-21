@@ -1,8 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   /* FONTS */
@@ -36,7 +32,7 @@
 
   body {
     @apply bg-background text-foreground mx-auto max-w-350;
-    overflow-x: hidden !important;
+    overflow-x: hidden!important;
     font-family: var(--font-inter);
     font-weight: 400;
     font-size: clamp(14px, 2vw, 18px);
@@ -120,9 +116,5 @@
 
   .flex-end {
     @apply flex items-center justify-end;
-  }
-
-  .container {
-    @apply max-w-350 ! mx-auto !;
   }
 }
