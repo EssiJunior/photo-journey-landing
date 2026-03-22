@@ -1,6 +1,6 @@
 import Button from "@/components/atoms/Button"
 import NavigationBack from "@/components/atoms/NavigationBack"
-import { arrowBack, share } from "@/public/assets"
+import { share } from "@/public/assets"
 import Image from "next/image"
 
 const Navbar = () => {

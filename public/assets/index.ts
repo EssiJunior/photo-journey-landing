@@ -1,3 +1,5 @@
+import logo from "./logo.svg";
+
 // -- ICONS
 import adventure from "./icons/adventure.svg";
 import arrowBack from "./icons/back-arrow.svg";
@@ -10,7 +12,7 @@ import solo from "./icons/solo.svg";
 // - social
 import facebookIcon from "./icons/social/facebook.svg";
 import instagramIcon from "./icons/social/instagram.svg";
-import linkedinIcon from "./icons/social/linkedin.svg";
+import linkedInIcon from "./icons/social/linkedin.svg";
 import tiktokIcon from "./icons/social/tiktok.svg";
 
 // - stores
@@ -38,4 +40,4 @@ import thumb7 from "./images/thumbs/7.webp";
 import thumb8 from "./images/thumbs/8.webp";
 import thumb9 from "./images/thumbs/9.webp";
 
-export { adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, facebookIcon, instagramIcon, linkedinIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8, thumb9 }
+export { logo, adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, facebookIcon, instagramIcon, linkedInIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8, thumb9 }
