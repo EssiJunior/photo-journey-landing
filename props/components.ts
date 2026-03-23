@@ -9,7 +9,7 @@ type Article = {
 }
 
 type SectionProps = {
-    heading: string[];
+    heading?: string[];
     children: React.ReactNode;
     className?: string;
 }
