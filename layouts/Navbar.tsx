@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const Navbar = () => {
     return (
-        <header className='sticky top-0 bg-accent/25 backdrop-blur-[10px] px-4.75 md:px-9.5 xl:px-18.75 py-6.25 flex-between'>
+        <header className='z-9999 sticky top-0 bg-accent/25 backdrop-blur-[10px] px-4.75 md:px-9.5 xl:px-18.75 py-6.25 flex-between'>
             <NavigationBack />
             <Button className="bg-black text-white">
                 <Image
