@@ -38,6 +38,5 @@ import thumb5 from "./images/thumbs/5.webp";
 import thumb6 from "./images/thumbs/6.webp";
 import thumb7 from "./images/thumbs/7.webp";
 import thumb8 from "./images/thumbs/8.webp";
-import thumb9 from "./images/thumbs/9.webp";
 
-export { logo, adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, facebookIcon, instagramIcon, linkedInIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8, thumb9 }
+export { logo, adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, facebookIcon, instagramIcon, linkedInIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8 }
