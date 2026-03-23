@@ -8,4 +8,10 @@ type Article = {
     image: StaticImageData;
 }
 
-export type { Article }
+type SectionProps = {
+    heading: string[];
+    children: React.ReactNode;
+    className?: string;
+}
+
+export type { Article, SectionProps }

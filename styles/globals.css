@@ -114,3 +114,7 @@
     @apply flex items-center justify-end;
   }
 }
+
+.highlight-text {
+  background: linear-gradient(90.27deg, #ad54f0 0.24%, #d24dbc 89.26%);
+}

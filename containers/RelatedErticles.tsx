@@ -1,12 +1,10 @@
 "use client";
 
-import React, { useState, useRef } from "react";
-import Link from "next/link";
 import Image from "next/image";
-import SectionHeading from "@/components/atoms/headings/SectionHeading";
 import { Article } from "@/props/components";
 import ArticleCard from "@/components/molecules/cards/ArticleCard";
 import { chevronLeft, chevronRight, thumb2, thumb8 } from "@/public/assets";
+import Section from "@/components/molecules/Section";
 
 const articles: Article[] = [
     {
@@ -32,24 +30,10 @@ const articles: Article[] = [
     }
 ];
 
-const ChevronLeft = () => (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-        <polyline points="15 18 9 12 15 6" />
-    </svg>
-);
-
-const ChevronRight = () => (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-        <polyline points="9 18 15 12 9 6" />
-    </svg>
-);
-
 const RelatedArticles = () => {
 
     return (
-        <section className="w-full py-16 px-1 sm:px-5.75 bg-white">
-            <SectionHeading title="Related Articles" className="mb-12" />
-
+        <Section heading={["Related Articles"]}>
             <div className="overflow-hidden relative flex-center">
                 <div
                     className="absolute left-0 top-[120px] z-10 flex-center w-15 h-15 rounded-full bg-white border border-gray-100 transition-all duration-150 hover:shadow-lg"
@@ -89,7 +73,7 @@ const RelatedArticles = () => {
                     />
                 ))}
             </div>
-        </section>
+        </Section>
     );
 }
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { appstore, chevronLeft, english, facebookIcon, instagramIcon, linkedInIcon, logo, playstore, tiktokIcon } from "@/public/assets";
 import DownloadApp from "@/components/atoms/DownloadApp";
-import FooterHeading from "@/components/atoms/headings/FooterHeading";
+import FooterHeading from "@/components/atoms/typography/headings/FooterHeading";
 import FooterNavigation from "@/components/molecules/FooterNavigation";
 import Button from "@/components/atoms/Button";
 import FooterLink from "@/components/atoms/links/FooterLink";

@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterHeading from '../atoms/headings/FooterHeading'
+import FooterHeading from '../atoms/typography/headings/FooterHeading'
 import FooterLink from '../atoms/links/FooterLink'
 
 const FooterNavigation = ({ title, links, className }: { title: string, links: { href: string, label: string }[], className?: string }) => {
