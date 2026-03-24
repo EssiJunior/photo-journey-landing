@@ -1,6 +1,7 @@
+import { ImageCopyrightedProps } from '@/props/components/atoms'
 import React from 'react'
 
-const ImageCopyrighted = ({ children, className, textClassName, copyright }: { children: React.ReactNode, className?: string, textClassName?: string, copyright: string }) => {
+const ImageCopyrighted = ({ children, className, textClassName, copyright }: ImageCopyrightedProps) => {
     return (
         <div className={`relative ${className}`}>
             {children}

@@ -1,6 +1,7 @@
+import { FooterHeadingProps } from '@/props/components/atoms'
 import React from 'react'
 
-const FooterHeading = ({ title, className }: { title: string, className?: string }) => {
+const FooterHeading = ({ title, className }: FooterHeadingProps) => {
     return (
         <h3 className={`text-start font-libre text-[22px] font-normal ${className}`}>
             {title}

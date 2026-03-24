@@ -1,7 +1,8 @@
+import { FooterLinkProps } from '@/props/components/atoms'
 import Link from 'next/link'
 import React from 'react'
 
-const FooterLink = ({ link, className }: { link: { href: string, label: string }, className?: string }) => {
+const FooterLink = ({ link, className }: FooterLinkProps) => {
     return (
         <Link
             href={link.href}
