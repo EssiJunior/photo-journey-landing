@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const ArticleCard = ({ article }: { article: Article }) => {
     return (
-        <div className="group flex flex-col items-center gap-8.75 w-[395px]">
+        <div className="group flex flex-col items-center w-[395px]">
             <div
-                className="relative overflow-hidden transition-transform duration-500"
+                className="relative overflow-hidden transition-transform duration-500 pb-10"
             >
                 <Image
                     src={article.image}
                     alt={article.title}
                     width={395}
                     height={276}
-                    className="w-[395px] h-[276px]! rounded-[200px] object-cover"
+                    className=" image-shadow w-[395px] h-[276px]! rounded-[200px] object-cover"
                 />
             </div>
 

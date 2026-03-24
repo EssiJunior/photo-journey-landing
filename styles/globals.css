@@ -30,7 +30,7 @@
   }
 
   body {
-    @apply bg-background text-foreground mx-auto max-w-400;
+    @apply bg-background text-foreground mx-auto max-w-[1440px];
     overflow-x: hidden !important;
     font-family: var(--font-inter);
     font-weight: 400;
@@ -117,4 +117,13 @@
 
 .highlight-text {
   background: linear-gradient(90.27deg, #ad54f0 0.24%, #d24dbc 89.26%);
+}
+
+.image-shadow {
+  box-shadow:
+    0px 7.37px 14.74px 0px #0000001a,
+    0px 25.79px 25.79px 0px #00000017,
+    0px 58.95px 35px 0px #0000000d,
+    0px 105px 42.37px 0px #00000003,
+    0px 163.95px 46.05px 0px #00000000 !important;
 }

@@ -1,8 +1,24 @@
-import React from 'react'
+import ImageCopyrighted from '@/components/atoms/ImageCopyrighted'
+import InstagramPostCard from '@/components/molecules/cards/InstagramPostCard'
+import Section from '@/components/molecules/Section'
+import { instagram, thumb5, thumb6 } from '@/public/assets'
+import Image from 'next/image'
 
 const SocialMedia = () => {
     return (
-        <div>SocialMedia</div>
+        <Section>
+            <div className='mx-auto flex-center max-md:flex-wrap gap-[50px] w-full max-w-[1122px]'>
+                <ImageCopyrighted copyright='©This is a random copyrightedimage source'>
+                    <Image src={thumb5} alt='©This is a random copyrightedimage source' width={356} height={579} className='object-cover rounded-[200px] !w-[356px] !h-[579px] image-shadow' />
+                </ImageCopyrighted>
+
+                <div className="grid gap-10">
+                    <InstagramPostCard image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
+
+                    <InstagramPostCard image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
+                </div>
+            </div>
+        </Section>
     )
 }
 

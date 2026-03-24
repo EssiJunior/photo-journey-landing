@@ -8,11 +8,11 @@ import Image from 'next/image'
 const Closing = () => {
     return (
         <Section heading={['Closing: Morocco as a', 'Photographic Teacher']}>
-            <div className='mx-auto grid place-items-center gap-12.5 w-full max-w-[811px]'>
+            <div className='mx-auto grid place-items-center gap-[50px] w-full max-w-[811px]'>
                 <SectionText>1)Marrakech is bold: terracotta walls, palm shadows, buzzing souks, and the famous energy of Jemaa el-Fnaa. It&apos;s the city where photography becomes choreography—your timing matters as much as your framing..  What to photograph in Marrakech. Jemaa el-Fnaa: the heartbeat. This square changes constantly. In daylight, it&apos;s open and bright. At sunset, it turns cinematic: smoke from grills rises, lanterns glow, crowds thicken, and the sky shifts into purple-blue. Shoot wide to show scaleShoot tight to isolate gestures: hands serving tea, steam, faces lit by warm bulbs. Try motion blur to show movement (even a slight blur can add energy) If you can, find a rooftop café view. From above, the square becomes a living pattern—circles of crowds, lines of movement, pulses of light.</SectionText>
 
                 <ImageCopyrighted copyright='©MoroccoShots.com'>
-                    <Image src={thumb7} alt='©MoroccoShots.com' width={568} height={430} className='object-cover rounded-[400px] w-[568px] h-[450px]' />
+                    <Image src={thumb7} alt='©MoroccoShots.com' width={568} height={430} className='object-cover rounded-[400px] w-[568px] h-[450px] image-shadow' />
                 </ImageCopyrighted>
 
                 <div className="grid gap-2">
