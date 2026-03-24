@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <Section className='px-4.25 sm:px-10 md:px-19'>
+        <Section className='overflow-hidden px-4.25 sm:px-10 md:px-19'>
             <div className='relative flex w-full '>
                 <aside className="grid gap-4 max-sm:mt-20 sm:max-w-[70%]">
                     <Button className='bg-linear-to-r from-primary to-secondary text-white w-fit'>Photo Journey</Button>
