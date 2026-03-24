@@ -3,7 +3,6 @@ import HighlightSectionText from '@/components/atoms/typography/bodies/Highlight
 import SectionText from '@/components/atoms/typography/bodies/SectionText'
 import SectionHeading from '@/components/atoms/typography/headings/SectionHeading'
 import Section from '@/components/molecules/Section'
-import React from 'react'
 
 const Mindset = () => {
     return (

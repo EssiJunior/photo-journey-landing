@@ -1,7 +1,6 @@
 import HighlightSectionText from '@/components/atoms/typography/bodies/HighlightSectionText'
 import SectionText from '@/components/atoms/typography/bodies/SectionText'
 import Section from '@/components/molecules/Section'
-import React from 'react'
 
 const Marrakech = () => {
     return (
