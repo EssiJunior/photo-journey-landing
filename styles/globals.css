@@ -127,3 +127,21 @@
     0px 105px 42.37px 0px #00000003,
     0px 163.95px 46.05px 0px #00000000 !important;
 }
+
+.social-media-card {
+  box-shadow:
+    0px 9px 20px 0px #e0e0e01a,
+    0px 37px 37px 0px #e0e0e017,
+    0px 82px 49px 0px #e0e0e00d,
+    0px 146px 59px 0px #e0e0e003,
+    0px 229px 64px 0px #e0e0e000;
+}
+
+.mindset-shadow {
+  box-shadow:
+    0px 9px 20px 0px #e0e0e01a,
+    0px 37px 37px 0px #e0e0e017,
+    0px 82px 49px 0px #e0e0e00d,
+    0px 146px 59px 0px #e0e0e003,
+    0px 229px 64px 0px #e0e0e000;
+}

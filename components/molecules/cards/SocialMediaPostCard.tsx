@@ -15,7 +15,7 @@ const socialMedias = {
 
 const SocialMediaPostCard = ({ image, title, description, socialMedia, className }: { image: StaticImageData, title: string, description: string, socialMedia: keyof typeof socialMedias, className?: string }) => {
     return (
-        <aside className={`relative p-[0.35px] rounded-[20px] bg-linear-to-r from-primary/35 to-secondary/35 ${className}`}>
+        <aside className={`social-media-card relative p-[0.35px] rounded-[20px] bg-linear-to-r from-primary/35 to-secondary/35 ${className}`}>
             <div className="flex gap-19 rounded-[20px] py-4 px-8 h-full w-full bg-white">
                 <div className="grid gap-2 max-w-[434px]">
                     <div className="flex items-center gap-2">
