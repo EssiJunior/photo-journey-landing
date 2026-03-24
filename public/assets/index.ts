@@ -8,6 +8,7 @@ import chevronRight from "./icons/chevron-right.svg";
 import elephant from "./icons/elephant.svg";
 import share from "./icons/share.svg";
 import solo from "./icons/solo.svg";
+import externalLink from "./icons/external-link.svg";
 
 // - social
 import facebookIcon from "./icons/social/facebook.svg";
@@ -39,4 +40,4 @@ import thumb6 from "./images/thumbs/6.webp";
 import thumb7 from "./images/thumbs/7.webp";
 import thumb8 from "./images/thumbs/8.webp";
 
-export { logo, adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, facebookIcon, instagramIcon, linkedInIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8 }
+export { logo, adventure, arrowBack, chevronLeft, chevronRight, elephant, share, solo, externalLink, facebookIcon, instagramIcon, linkedInIcon, tiktokIcon, appstore, playstore, english, instagram, youtube, profile, thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8 }
