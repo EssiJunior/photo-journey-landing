@@ -39,7 +39,7 @@ const Footer = () => {
                 background: "linear-gradient(310.6deg, #000000 28.25%, #8E97B4 87.82%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))",
             }}
         >
-            <div className="flex-between flex-wrap items-start! gap-25">
+            <div className="flex-between flex-wrap items-start! gap-10">
                 {/* Brand */}
                 <div className="w-full sm:w-[320px] grid gap-6">
                     {/* Logo */}

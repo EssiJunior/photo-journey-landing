@@ -32,43 +32,19 @@ This app is built with Next.js, TypeScript and Tailwind CSS. It's the implementa
 
 2. Install dependencies:
 
-   ```bash package="pnpm"
-   pnpm install
-   ```
-
    ```bash package="npm"
    npm install
-   ```
-
-   ```bash package="yarn"
-   yarn install
-   ```
-
-   ```bash package="bun"
-   bun install
    ```
 
 ### Development
 
 Start the development server:
 
-   ```bash package="pnpm"
-   pnpm dev
-   ```
-
    ```bash package="npm"
    npm run dev
    ```
 
-   ```bash package="yarn"
-   yarn dev
-   ```
-
-   ```bash package="bun"
-   bun dev
-   ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+That's it, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Building for Production
 
@@ -86,14 +62,16 @@ npm start
 
 ```text
 .
-├── app/                # App router pages and layouts
+├── app/                # App router page and layout
 ├── components/         # Reusable UI components
 │   ├── atoms/            # base components
 │   └── molecules/        # larger components, made of atoms
-├── containers/        # Page containers
-├── public/            # Static assets
-├── styles/            # Global styles
-└── utils/             # Helper utilities
+├── containers/         # Page containers
+├── layouts/            # Page layouts
+├── props/              # Components prop types
+├── public/             # Static assets
+├── styles/             # app style
+└── utils/              # Helper utilities
 ```
 
 ## 🙏 Acknowledgments
@@ -106,12 +84,3 @@ npm start
 Made with ❤️ by [Essi Junior](https://essijunior.com)
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
