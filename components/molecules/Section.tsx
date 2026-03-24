@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionHeading from '@/components/atoms/typography/headings/SectionHeading'
-import { SectionProps } from '@/props/components'
+import { SectionProps } from '@/props/components/molecules'
 
 const Section = ({ heading, children, className }: SectionProps) => {
     return (

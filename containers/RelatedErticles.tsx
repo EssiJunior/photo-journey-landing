@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Article } from "@/props/components";
+import { Article } from "@/props/components/molecules";
 import ArticleCard from "@/components/molecules/cards/ArticleCard";
 import { chevronLeft, chevronRight, thumb2, thumb8 } from "@/public/assets";
 import Section from "@/components/molecules/Section";

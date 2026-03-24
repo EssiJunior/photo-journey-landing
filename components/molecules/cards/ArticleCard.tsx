@@ -1,8 +1,8 @@
-import { Article } from "@/props/components";
+import { ArticleProps } from "@/props/components/molecules";
 import Image from "next/image";
 
 
-const ArticleCard = ({ article }: { article: Article }) => {
+const ArticleCard = ({ article }: { article: ArticleProps }) => {
     return (
         <div className="group flex flex-col items-center w-[395px]">
             <div
