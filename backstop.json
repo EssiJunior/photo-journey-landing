@@ -38,6 +38,22 @@
       "expect": 0,
       "misMatchThreshold": 0.1,
       "requireSameDimensions": true
+    },
+    {
+      "label": "Photo journey Navbar",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        "header"
+      ]
+    },
+    {
+      "label": "Photo journey Footer",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        "footer"
+      ]
     }
   ],
   "paths": {
