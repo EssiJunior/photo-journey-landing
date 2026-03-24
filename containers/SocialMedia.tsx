@@ -1,5 +1,5 @@
 import ImageCopyrighted from '@/components/atoms/ImageCopyrighted'
-import InstagramPostCard from '@/components/molecules/cards/InstagramPostCard'
+import SocialMediaPostCard from '@/components/molecules/cards/SocialMediaPostCard'
 import Section from '@/components/molecules/Section'
 import { instagram, thumb5, thumb6 } from '@/public/assets'
 import Image from 'next/image'
@@ -13,9 +13,9 @@ const SocialMedia = () => {
                 </ImageCopyrighted>
 
                 <div className="grid gap-10">
-                    <InstagramPostCard image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
+                    <SocialMediaPostCard socialMedia='instagram' image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
 
-                    <InstagramPostCard image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
+                    <SocialMediaPostCard socialMedia='instagram' image={thumb6} title='Sunrise Over Aegean: A peaceful meditation' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />
                 </div>
             </div>
         </Section>
