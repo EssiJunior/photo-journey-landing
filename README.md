@@ -71,12 +71,13 @@ npm start
 ├── props/              # Components prop types
 ├── public/             # Static assets
 ├── styles/             # app style
+└── tests/              # Playright E2E Test suites
 └── utils/              # Helper utilities
 ```
 
 ## Testing
 
-### Visual Regression Testing
+### 1. Visual Regression Testing
 
 We've done visual regression testing with [backStrop.js](https://github.com/backstopjs/backstopjs).
 
@@ -85,19 +86,21 @@ In order to run the tests, you need to have the app running locally. After then,
 1. Generate reference images:
 
    ```bash package="npm"
-   npm run reference
+   npm run backstop-reference
    ```
 
 2. Run the tests:
 
    ```bash package="npm"
-   npm run test
+   npm run backstop-test
    ```
 
-3. Approve the tests:
+### 2. End to End Testing with Playwrite
+
+In order to run the tests, you need to have the app running locally. After then run the test suites in /tests folder
 
    ```bash package="npm"
-   npm run approve
+   npm run playwright-test
    ```
 
 ## 🙏 Acknowledgments
