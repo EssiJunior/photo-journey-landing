@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <Section className='overflow-hidden px-4.25 sm:px-10 md:px-19'>
+        <Section className='hero overflow-hidden px-4.25 sm:px-10 md:px-19'>
             <div className='relative flex w-full '>
                 <aside className="grid gap-4 max-sm:mt-20 sm:max-w-[70%]">
                     <Button className='bg-linear-to-r from-primary to-secondary text-white w-fit'>Photo Journey</Button>
@@ -48,7 +48,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </aside>
-                <div className='-z-1] absolute top-[-50%] xl:top-[-70%] right-0 sm:right-[-20%] xl:right-[-10%] flex-center flex-col gap-5 bg-[#EEF3FE] px-7 sm:px-15 py-14.5 sm:py-30 xl:px-20 xl:py-60 rounded-[500px] -rotate-[62.98deg] sm:-rotate-[24.75deg] xl:-rotate-[18.21deg]'>
+                <div className='-z-1 absolute top-[-40%] xl:top-[-70%] right-0 sm:right-[-20%] xl:right-[-10%] flex-center flex-col gap-5 bg-[#EEF3FE] px-7 sm:px-15 py-14.5 sm:py-30 xl:px-20 xl:py-60 rounded-[500px] -rotate-[62.98deg] sm:-rotate-[24.75deg] xl:-rotate-[18.21deg]'>
                     <ImageCopyrighted copyright='©This is a random copyrightedimage source' className='rotate-[62.98deg] sm:rotate-[24.75deg] xl:rotate-[18.21deg]' textClassName='max-xl:hidden'>
                         <Image src={thumb1} alt='©This is a random copyrightedimage source' width={158} height={158} className='object-cover rounded-[200px] w-[158px] h-[158px] sm:w-[180px] sm:h-[180px] xl:w-[324px] xl:h-[324px] image-shadow' />
                     </ImageCopyrighted>

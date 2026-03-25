@@ -7,7 +7,7 @@ import Image from 'next/image'
 const SocialMedia = () => {
     return (
         <Section>
-            <div className='mx-auto flex-center max-md:flex-wrap gap-[50px] w-full max-w-[1122px]'>
+            <div className='social-media mx-auto flex-center max-md:flex-wrap gap-[50px] w-full max-w-[1122px]'>
                 <ImageCopyrighted copyright='©This is a random copyrightedimage source'>
                     <Image src={thumb5} alt='©This is a random copyrightedimage source' width={356} height={579} className='object-cover rounded-[200px] w-[356px]! h-[579px]! image-shadow' />
                 </ImageCopyrighted>

@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Lens = () => {
     return (
-        <Section heading={['Behind The Lens']} className='px-4.25 sm:px-10 md:px-19'>
+        <Section heading={['Behind The Lens']} className='lens px-4.25 sm:px-10 md:px-19'>
             <div className='mx-auto grid place-items-center gap-[50px] w-full'>
                 <SectionGrid>
                     <SocialMediaPostCard socialMedia='youtube' image={thumb2} title='Essential Viewing: Capturing magic moments' description='Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.' />

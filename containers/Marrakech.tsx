@@ -4,7 +4,7 @@ import Section from '@/components/molecules/Section'
 
 const Marrakech = () => {
     return (
-        <Section heading={['Marrakech: Heat, Motion, and Magic!']}>
+        <Section heading={['Marrakech: Heat, Motion, and Magic!']} className='marrakech'>
             <div className='mx-auto grid place-items-center gap-6 w-full max-w-[811px]'>
                 <div className='grid'>
                     <SectionText className='font-semibold!'>1)Marrakech is bold: </SectionText>

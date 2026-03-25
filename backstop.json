@@ -40,7 +40,7 @@
       "requireSameDimensions": true
     },
     {
-      "label": "Photo journey Navbar",
+      "label": "Photo journey - Navbar | LAYOUT",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:3000/",
       "selectors": [
@@ -48,11 +48,59 @@
       ]
     },
     {
-      "label": "Photo journey Footer",
+      "label": "Photo journey - Footer | LAYOUT",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:3000/",
       "selectors": [
         "footer"
+      ]
+    },
+    {
+      "label": "Photo journey - Hero | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".hero"
+      ]
+    },
+    {
+      "label": "Photo journey - Lens | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".lens"
+      ]
+    },
+    {
+      "label": "Photo journey - Marrakech | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".marrakech"
+      ]
+    },
+    {
+      "label": "Photo journey - Mindset | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".mindset"
+      ]
+    },
+    {
+      "label": "Photo journey - Related Articles | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".related-articles"
+      ]
+    },
+    {
+      "label": "Photo journey - Social Media | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".social-media"
       ]
     }
   ],

@@ -31,7 +31,7 @@ const RelatedArticles = () => {
     const canGoNext = currentPage < TOTAL_PAGES - 1;
 
     return (
-        <Section heading={["Related Articles"]}>
+        <Section className="related-articles" heading={["Related Articles"]}>
             <div className="overflow-hidden relative flex-center">
                 {/* Left Arrow */}
                 <button
