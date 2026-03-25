@@ -7,7 +7,7 @@ import Section from '@/components/molecules/Section'
 const Mindset = () => {
     return (
         <Section>
-            <div className='mindset mindset-shadow mx-auto grid place-items-center w-full max-w-[968px] rounded-[600px] bg-linear-to-r from-primary to-secondary text-white py-11 px-22 gap-8'>
+            <div className='mindset mindset-shadow mx-auto grid place-items-center w-full max-w-[968px] rounded-[600px] bg-linear-to-r from-primary to-secondary text-white py-11 px-7.5 sm:px-22 gap-8'>
 
                 <SectionHeading title='Before You Shoot: A Quick Morocco Photography Mindset' />
                 <SectionText className='text-center text-white max-w-[679px]'>

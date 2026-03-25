@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/backstop_data
 
 # next.js
 /.next/

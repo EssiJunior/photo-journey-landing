@@ -64,6 +64,14 @@
       ]
     },
     {
+      "label": "Photo journey - Mindset | CONTAINER",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:3000/",
+      "selectors": [
+        ".mindset"
+      ]
+    },
+    {
       "label": "Photo journey - Lens | CONTAINER",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:3000/",
@@ -77,14 +85,6 @@
       "url": "http://localhost:3000/",
       "selectors": [
         ".marrakech"
-      ]
-    },
-    {
-      "label": "Photo journey - Mindset | CONTAINER",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://localhost:3000/",
-      "selectors": [
-        ".mindset"
       ]
     },
     {

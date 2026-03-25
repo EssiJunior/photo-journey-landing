@@ -74,6 +74,32 @@ npm start
 └── utils/              # Helper utilities
 ```
 
+## Testing
+
+### Visual Regression Testing
+
+We've done visual regression testing with [backStrop.js](https://github.com/backstopjs/backstopjs).
+
+In order to run the tests, you need to have the app running locally. After then, follow the foloowing steps.
+
+1. Generate reference images:
+
+   ```bash package="npm"
+   npm run reference
+   ```
+
+2. Run the tests:
+
+   ```bash package="npm"
+   npm run test
+   ```
+
+3. Approve the tests:
+
+   ```bash package="npm"
+   npm run approve
+   ```
+
 ## 🙏 Acknowledgments
 
 - [Next.js Documentation](https://nextjs.org/docs)

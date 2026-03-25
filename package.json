@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "reference": "backstop reference",
+    "test": "backstop test",
+    "approve": "backstop approve"
   },
   "dependencies": {
     "next": "16.1.7",
