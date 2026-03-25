@@ -12,7 +12,7 @@ const ArticleCard = ({ article }: { article: ArticleProps }) => {
                     alt={article.title}
                     width={395}
                     height={276}
-                    className=" image-shadow w-[395px] h-[276px]! rounded-[200px] object-cover"
+                    className=" image-shadow w-[351px] sm:w-[395px] h-[245px]! sm:h-[276px]! rounded-[200px] object-cover"
                 />
             </div>
 
