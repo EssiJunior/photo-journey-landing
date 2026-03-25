@@ -1,6 +1,5 @@
 import { arrowBack } from '@/public/assets'
 import Image from 'next/image'
-import React from 'react'
 
 const NavigationBack = () => {
     return (
@@ -8,7 +7,7 @@ const NavigationBack = () => {
             <Image
                 src={arrowBack}
                 width={21}
-                height={0}
+                height={15}
                 alt="Back icon"
             />
             <span className="text-[16px]">Back{" "}

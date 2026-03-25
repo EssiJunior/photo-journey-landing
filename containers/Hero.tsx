@@ -16,8 +16,8 @@ const Hero = () => {
                     <Button className='bg-linear-to-r from-primary to-secondary text-white w-fit'>Photo Journey</Button>
 
                     <div className="grid">
-                        <h1 className="font-libre text-start">Through the Lens:</h1>
-                        <h1 className="font-libre text-start">Morocco&apos;s Imperial Cities</h1>
+                        <h1 className="font-libre text-start">Through the Lens:<br />
+                            Morocco&apos;s Imperial Cities</h1>
                     </div>
 
                     <p className='text-[#595959] max-w-[718px]'>
