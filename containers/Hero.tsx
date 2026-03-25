@@ -25,7 +25,7 @@ const Hero = () => {
                     </p>
 
                     <div className="grid mt-[54px] gap-4">
-                        <div className="flex gap-4">
+                        <div className="flex flex-wrap gap-4">
                             <Tag>
                                 <Image src={adventure} alt='adventure' width={20} height={20} />
                                 Adventures
