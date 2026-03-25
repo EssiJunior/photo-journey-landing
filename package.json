@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "reference": "backstop reference",
-    "test": "backstop test",
-    "approve": "backstop approve"
+    "backstop-reference": "backstop reference",
+    "backstop-test": "backstop test",
+    "playwright-test": "npx playwright test --ui"
   },
   "dependencies": {
     "next": "16.1.7",
@@ -17,6 +17,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
