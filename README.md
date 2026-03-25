@@ -75,7 +75,7 @@ npm start
 └── utils/              # Helper utilities
 ```
 
-## Testing
+## 🧪 Testing
 
 ### 1. Visual Regression Testing
 
@@ -97,7 +97,7 @@ In order to run the tests, you need to have the app running locally. After then,
 
 ### 2. End to End Testing with Playwrite
 
-In order to run the tests, you need to have the app running locally. After then run the test suites in /tests folder
+In order to run the tests, you need to have the app running locally. After then run the test suites in /tests folder. The `--ui` flag will open the test runner in an interactive UI.
 
    ```bash package="npm"
    npm run playwright-test
