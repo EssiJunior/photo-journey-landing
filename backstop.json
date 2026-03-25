@@ -3,13 +3,13 @@
   "viewports": [
     {
       "label": "phone",
-      "width": 320,
-      "height": 480
+      "width": 375,
+      "height": 812
     },
     {
       "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "width": 768,
+      "height": 1024
     },
     {
       "label": "desktop",
